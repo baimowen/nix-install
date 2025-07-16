@@ -324,7 +324,7 @@ cat /mnt/etc/nixos/configuration.nix | grep -A12 'Open ports in the firewall'
 sed -i '/^[[:space:]]*imports[[:space:]]*=/i \  nix.settings.substituters = [ "https://mirrors.ustc.edu.cn/nix-channels/store" ];' /mnt/etc/nixos/configuration.nix
 ```
 
-
+---
 
 ## 安装Nixos
 
@@ -336,7 +336,7 @@ reboot
 
 安装过程中输入的密码为root密码，若使用nix登录需root进入系统后手动添加密码
 
-
+---
 
 ## 修复系统
 
